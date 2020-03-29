@@ -1,0 +1,31 @@
+section {
+	background-color: #9e9e9e;
+}
+h1 {
+	text-align: center;
+}
+body {
+	font-family: Lucida Console, Courier, monospace;
+}
+div {
+	font-size: 120%;
+	font-weight: 900;
+	margin-left: 70%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.pink-black {
+	background-color: #f7c6c6;
+	color: black;
+}
+.red-white {
+	background-color: #700101;
+	color: white;
+}
+.beige-black {
+	background-color: #ffc157;
+	color: black;
+}
