@@ -1,0 +1,166 @@
+  
+body {
+  font-size: 16px;
+  color: #fff;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #000033;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 {
+  font-family: Lucida Console, Courier, monospace;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000000;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+h1 {
+  color: #000000;
+  font-size: 180%;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #000000;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold; 
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 20px #3F0C1F;
+  border: 2px solid #3F0C1F;
+  padding-top: 0px;
+  color: #000000;
+  background-color: #B2FF66;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.navbar-header {
+  padding-bottom: 20px;
+}
+}
+  /* Home Page */
+  .container .jumbotron {
+padding-right: 20px;
+padding-left: 20px;
+}
+  /* End Home Page */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+.navbar-header {
+  padding-bottom: 20px;
+}
+  /* End Header */
+
+  /* Home Page */
+    .container .jumbotron {
+padding-right: 15px;
+padding-left: 15px;
+}
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+.navbar-header {
+  padding-bottom: 20px;
+}
+  /* End Header */
+
+  /* Home Page */
+    .container .jumbotron {
+padding-right: 10px;
+padding-left: 10px;
+}
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-header {
+  padding-bottom: 0px;
+}
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    background-color: #ffff33;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+  /* Home Page */
+    .container .jumbotron {
+padding-right: 8px;
+padding-left: 8px;
+}
+  /* End Home Page */
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  /* Home page */
+  .container .jumbotron {
+padding-right: 5px;
+padding-left: 5px;
+}
+  /* End Home Page */
+}
